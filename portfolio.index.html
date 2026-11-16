@@ -1,77 +1,97 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>josephjeffongangi</title>
-<link rel="icon" href="images/favicon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f7f2">
+  <meta name="description" content="Joseph Jeff Ongangi is an Information Technology student at Kirinyaga University interested in programming, web development and practical software projects.">
+  <title>Joseph Jeff Ongangi — IT Student &amp; Developer</title>
+  <link rel="stylesheet" href="portfolio.css">
+  <script src="portfolio.js" defer></script>
 </head>
 <body>
-<div class="wrap">
-<nav aria-label="Sections"><a href="#about">About</a><a href="#skills">Skills</a><a href="#units">Units</a><a href="#projects">Projects</a><a href="#contact">Contact</a></nav>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="wrap">
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Joseph Jeff Ongangi, home">J<span>.</span>O</a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#learning">Learning</a>
+        <a href="#projects">Projects</a>
+        <a class="nav-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
 
-<header class="hero">
-<p class="tag">Kirinyaga University · Year 2 IT</p>
-<img class="me" src="images/profile.jpg" alt="Joseph Jeff Ongangi" width="140" height="140"><h1>Joseph Jeff Ongangi</h1>
-<p class="lead">I'm an IT student who writes C, C++, HTML and CSS, and I like turning class concepts into small programs and websites that work.</p>
-<a class="btn primary" href="#projects">See my projects</a><a class="btn ghost" href="#contact">Get in touch</a>
-</header>
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> IT student · Kirinyaga University</p>
+          <h1 id="hero-title">Hello, I’m<br><span>Joseph Jeff.</span></h1>
+          <p class="hero-lead">I’m an Information Technology student who enjoys turning what I learn into useful programs and thoughtful websites.</p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#projects">Explore my work <span aria-hidden="true">↘</span></a>
+            <a class="text-link" href="#contact">Let’s connect <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Initials JO" role="img">
+          <span class="art-orbit orbit-one"></span>
+          <span class="art-orbit orbit-two"></span>
+          <span class="hero-initials">J<span>.</span>O</span>
+          <span class="art-caption">Curious by nature.<br>Building as I learn.</span>
+          <span class="art-spark" aria-hidden="true">✳</span>
+        </div>
+        <div class="hero-meta"><span>Based in Kenya</span><span>Currently in Year 2</span></div>
+      </section>
 
-<section id="about">
-<h2>About me</h2>
-<p>I'm studying Information Technology at Kirinyaga University. This year I'm learning object-oriented programming, web application development, software engineering and network design. I'm looking for internships and attachments where I can build real software and learn from a team.</p>
-</section>
+      <section class="section about-section" id="about" aria-labelledby="about-title">
+        <div class="section-heading"><p class="eyebrow">A little about me</p><h2 id="about-title">Learning today,<br>building for tomorrow.</h2></div>
+        <div class="about-copy">
+          <p>I’m studying Information Technology at Kirinyaga University. My coursework spans programming, web application development, software engineering, databases and network design.</p>
+          <p>I like learning by doing: taking a concept from class and shaping it into a small program or website. I’m currently looking for opportunities to grow through internships, industrial attachment and collaboration.</p>
+          <a class="text-link" href="#learning">What I’m learning <span aria-hidden="true">↓</span></a>
+        </div>
+      </section>
 
-<section id="skills">
-<h2>Skills</h2>
-<ul class="skills">
-<li class="core">C</li><li class="core">C++</li><li class="core">HTML</li><li class="core">CSS</li>
-<li>Object-oriented programming</li><li>Data structures</li><li>SQL and databases</li><li>Networking basics</li><li>Git and GitHub</li><li>VS Code</li>
-</ul>
-</section>
+      <section class="section skills-section" id="skills" aria-labelledby="skills-title">
+        <div class="section-heading section-heading-row"><div><p class="eyebrow">Tools in my toolkit</p><h2 id="skills-title">Skills &amp; interests</h2></div><p class="section-note">Growing my foundations, one project at a time.</p></div>
+        <ul class="skill-list">
+          <li class="skill-featured">C</li><li class="skill-featured">C++</li><li class="skill-featured">HTML</li><li class="skill-featured">CSS</li>
+          <li>Object-oriented programming</li><li>Data structures</li><li>SQL &amp; databases</li><li>Networking basics</li><li>Git &amp; GitHub</li><li>VS Code</li>
+        </ul>
+      </section>
 
-<section id="units">
-<h2>What I've studied</h2>
-<div class="units">
-<div class="group"><h3>Programming</h3><p>Writing and structuring code</p>
-<ul><li>Introduction to Programming and Algorithms</li><li>Data Structures and Algorithms</li><li>Object Oriented Programming I <span class="now">in progress</span></li></ul></div>
-<div class="group"><h3>Web and software</h3><p>Building and designing applications</p>
-<ul><li>Web Application Development I <span class="now">in progress</span></li><li>Software Engineering I <span class="now">in progress</span></li><li>Systems Analysis and Design</li></ul></div>
-<div class="group"><h3>Databases</h3><p>Storing and querying data</p>
-<ul><li>Introduction to Database Management Systems</li></ul></div>
-<div class="group"><h3>Networks and systems</h3><p>How computers work and connect</p>
-<ul><li>Computer Networks</li><li>Network Design and Management <span class="now">in progress</span></li><li>Computer Operating Systems</li><li>Computer Systems and Organization</li><li>Installation and Customization</li></ul></div>
-<div class="group"><h3>Electronics</h3><p>Hardware foundations</p>
-<ul><li>Analogue Electronics</li><li>Digital Logic <span class="now">in progress</span></li></ul></div>
-<div class="group"><h3>Maths and statistics</h3><p>Problem-solving tools</p>
-<ul><li>Discrete Mathematics</li><li>Mathematics for Science</li><li>Calculus I <span class="now">in progress</span></li><li>Probability and Statistics I and II</li></ul></div>
-<div class="group"><h3>Professional skills</h3><p>Working with people and tools</p>
-<ul><li>Introduction to Computer Application</li><li>Communication and Information Literacy Skills</li><li>Essentials of Accounting</li></ul></div>
-</div>
-</section>
+      <section class="section learning-section" id="learning" aria-labelledby="learning-title">
+        <div class="section-heading section-heading-row"><div><p class="eyebrow">The study behind the practice</p><h2 id="learning-title">What I’m learning</h2></div><p class="section-note">Selected units from my IT studies.</p></div>
+        <div class="learning-grid">
+          <article class="learning-card"><span class="card-number">01</span><h3>Programming</h3><p>Writing and structuring code</p><ul><li>Introduction to Programming and Algorithms</li><li>Data Structures and Algorithms</li><li>Object Oriented Programming I <span class="in-progress">In progress</span></li></ul></article>
+          <article class="learning-card"><span class="card-number">02</span><h3>Web &amp; software</h3><p>Building and designing applications</p><ul><li>Web Application Development I <span class="in-progress">In progress</span></li><li>Software Engineering I <span class="in-progress">In progress</span></li><li>Systems Analysis and Design</li></ul></article>
+          <article class="learning-card"><span class="card-number">03</span><h3>Databases</h3><p>Storing and querying data</p><ul><li>Introduction to Database Management Systems</li></ul></article>
+          <article class="learning-card"><span class="card-number">04</span><h3>Networks &amp; systems</h3><p>How computers work and connect</p><ul><li>Computer Networks</li><li>Network Design and Management <span class="in-progress">In progress</span></li><li>Computer Operating Systems</li><li>Computer Systems and Organization</li></ul></article>
+          <article class="learning-card"><span class="card-number">05</span><h3>Electronics</h3><p>Hardware foundations</p><ul><li>Analogue Electronics</li><li>Digital Logic <span class="in-progress">In progress</span></li></ul></article>
+          <article class="learning-card"><span class="card-number">06</span><h3>Maths &amp; statistics</h3><p>Problem-solving tools</p><ul><li>Discrete Mathematics</li><li>Mathematics for Science</li><li>Calculus I <span class="in-progress">In progress</span></li><li>Probability and Statistics I and II</li></ul></article>
+          <article class="learning-card"><span class="card-number">07</span><h3>Professional skills</h3><p>Working with people and tools</p><ul><li>Introduction to Computer Application</li><li>Communication and Information Literacy Skills</li><li>Essentials of Accounting</li></ul></article>
+        </div>
+      </section>
 
-<section id="projects">
-<h2>Projects</h2>
-<div class="projects">
-<!-- Replace each project with your real work and GitHub links -->
-<div class="proj"><h3>Student Record System</h3><p>A console program that adds, searches, edits and deletes student records, saved to a file.</p><p class="stack">C++ · OOP · File handling</p><p><a href="https://github.com/devbyjeff26/student-records">View on GitHub</a></p></div>
-<div class="proj"><h3>Personal Website</h3><p>A responsive multi-page site with a contact form and clean layout that works on phones.</p><p class="stack">HTML · CSS</p><p><a href="https://github.com/devbyjeff26/personal-site">View on GitHub</a></p></div>
-<div class="proj"><h3>Library Database Design</h3><p>A database for books, members and loans, with an ER diagram and sample queries.</p><p class="stack">SQL · Database design</p><p><a href="https://github.com/devbyjeff26/library-db">View on GitHub</a></p></div>
-<div class="proj"><h3>Bank Account Simulator</h3><p>Deposits, withdrawals and balance checks built with C classes and data validation.</p><p class="stack">C++ · Classes</p><p><a href="https://github.com/devbyjeff26/bank-simulator">View on GitHub</a></p></div>
-</div>
-</section>
+      <section class="section projects-section" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading section-heading-row"><div><p class="eyebrow">Putting ideas into practice</p><h2 id="projects-title">Projects</h2></div><p class="section-note">Coursework concepts and small builds.</p></div>
+        <div class="project-grid">
+          <article class="project-card"><span class="project-index">01 / C++</span><h3>Student Record System</h3><p>A console program concept for adding, searching, editing and deleting student records, with file-based storage.</p><ul class="project-tags"><li>C++</li><li>OOP</li><li>File handling</li></ul></article>
+          <article class="project-card"><span class="project-index">02 / WEB</span><h3>Personal Website</h3><p>A responsive personal website concept with a clear layout designed to work across screen sizes.</p><ul class="project-tags"><li>HTML</li><li>CSS</li></ul></article>
+          <article class="project-card"><span class="project-index">03 / DATA</span><h3>Library Database Design</h3><p>A database design concept for books, members and loans, including an ER diagram and sample queries.</p><ul class="project-tags"><li>SQL</li><li>Database design</li></ul></article>
+          <article class="project-card"><span class="project-index">04 / C++</span><h3>Bank Account Simulator</h3><p>A class-based simulator concept for deposits, withdrawals and balance checks, with input validation.</p><ul class="project-tags"><li>C++</li><li>Classes</li></ul></article>
+        </div>
+        <p class="project-note">Project descriptions are learning exercises; source links will be added as projects are published.</p>
+      </section>
 
-<section id="contact">
-<h2>Contact</h2>
-<p>Open to internships, attachments and collaboration.</p>
-<p><a class="btn primary" href="mailto:biznajeff@gmail.com">biznajeff@gmail.com</a><a class="btn ghost" href="tel:+254713452194">+254 713 452 194</a><a class="btn ghost" href="https://github.com/devbyjeff26">GitHub: devbyjeff26</a></p>
-</section>
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div><p class="eyebrow">Have an opportunity or idea?</p><h2 id="contact-title">Let’s make<br>something useful.</h2></div>
+        <div class="contact-details"><p>I’m open to internships, industrial attachment and collaboration. Get in touch.</p><a class="contact-link" href="mailto:biznajeff@gmail.com">biznajeff@gmail.com <span aria-hidden="true">↗</span></a><a class="contact-link" href="tel:+254713452194">+254 713 452 194 <span aria-hidden="true">↗</span></a><a class="contact-link" href="https://github.com/devbyjeff26" target="_blank" rel="noopener noreferrer">GitHub profile <span aria-hidden="true">↗</span></a></div>
+      </section>
+    </main>
 
-<footer>© <span id="year">2026</span> Joseph Jeff Ongangi · Kirinyaga University</footer>
-</div>
-<script src="script.js" defer></script>
+    <footer class="site-footer"><a class="wordmark" href="#top" aria-label="Back to top">J<span>.</span>O</a><p>© <span id="year">2026</span> Joseph Jeff Ongangi · Made in Kenya</p><a class="back-top" href="#top">Back to top ↑</a></footer>
+  </div>
 </body>
 </html>
